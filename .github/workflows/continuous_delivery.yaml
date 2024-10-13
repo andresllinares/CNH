@@ -17,7 +17,6 @@ jobs:
             name: Setup Java SDK 
             uses: actions/setup-java@v4
             with: 
-            distribution: 'temurin'  
             java-version: '21'
         -
             name: Login to Docker Hub
