@@ -1,0 +1,21 @@
+name: Imprimir mensagens no Windows
+
+on: push
+
+jobs:
+  job1-hello:
+    runs-on: windows-latest  # Alterado para rodar no Windows
+    steps:
+      - name: Imprimir mensagem
+        run: echo "Olá, Mundo"
+
+  job2-goodbye:
+    runs-on: windows-latest  # Alterado para rodar no Windows
+    steps:
+      - name: Step 1 - Sequencia de instruções
+        run: |
+          echo "Uma nova instrução"
+          dir  # Comando equivalente ao 'ls' no Windows
+
+      - name: Step 2 - Imprimir mensagem
+        run: echo "Até logo!"
