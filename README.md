@@ -10,3 +10,5 @@ Nosso projeto se encontra na Azure: fiap-projetocnh-eqh2cud6cehpdgfy.brazilsouth
 O entrega de automação da fase 3 (framework java) foi utilizado para esta entrega. 
 
 Construimos os workflows seguindo os passos da aula do capitulo 5.
+
+Nosso banco de dados foi criado usando Oracle e o nosso docker utiliza essa sintaxe.
